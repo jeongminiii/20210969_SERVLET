@@ -6,11 +6,10 @@
     		카테고리
   		</button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">CPU</a> 
-        <a class="dropdown-item" href="#">볼펜</a>
-        <a class="dropdown-item" href="#">샤프</a>
-        <a class="dropdown-item" href="#">형광펜</a>
-        <a class="dropdown-item" href="#">지우개</a>
+        <a class="dropdown-item" href="#">아우터</a> 
+        <a class="dropdown-item" href="#">상의</a>
+        <a class="dropdown-item" href="#">하의</a>
+        <a class="dropdown-item" href="#">악세사리</a>
      </div>
 	</div>
     

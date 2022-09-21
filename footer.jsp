@@ -1,6 +1,6 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
 <footer class="container">
-		<p>&copy; 쇼핑몰 대표 : 이름, 고유번호 : 학번, 연락처 : 이메일 주소<br>
+		<p>&copy; 쇼핑몰 대표 : 김정민, 고유번호 : 20210969, 연락처 : kjm020102@sungkyul.ac.kr<br>
             <%
 	Date day = new java.util.Date();
 	String am_pm;
