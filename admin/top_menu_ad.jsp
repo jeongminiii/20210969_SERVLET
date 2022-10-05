@@ -23,17 +23,12 @@
     
 	<div class="container">
 		<div class="navbar-header">
-            <a class="navbar-brand" href="./index.jsp">COMMUNITY</a>
             <a class="navbar-brand" href="./index.jsp">ACCOUNT</a>
-            <a class="navbar-brand" href="./index.jsp">CART</a>
-            <a class="navbar-brand" href="./index.jsp">SEARCH</a>
-           	<a class="navbar-brand" href="admin/index_ad.jsp">관리자모드</a>
-
-
+            <a class="navbar-brand" href="./index.jsp">회원 보기/추가/수정/삭제</a>
+            <a class="navbar-brand" href="index_ad.jsp">상품 보기</a>
+            <a class="navbar-brand" href="product_add.jsp">등록</a>
+            <a class="navbar-brand" href="index_ad.jsp">수정/삭제</a>
+            <a class="navbar-brand" href="../index.jsp">일반모드</a>
 		</div>
-        <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
 	</div>
 </nav>

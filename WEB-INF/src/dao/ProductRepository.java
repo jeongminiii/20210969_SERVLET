@@ -5,34 +5,42 @@ import dto.Product;
 public class ProductRepository {
 
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
+    private static ProductRepository instance = new ProductRepository();
+    
+    public static ProductRepository getInstance(){
+        return instance;
+    }
+   
+
+
 
 	public ProductRepository() {
-		Product phone = new Product("P1234", "iPhone 6s", 800000);
-		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
-		phone.setCategory("Smart Phone");
-		phone.setManufacturer("Apple");
-		phone.setUnitsInStock(1000);
-		phone.setCondition("New");
+		Product jacket = new Product("P1234", "Wool tweed jacket", 209000);
+		jacket.setDescription("wool 30 polyester 25 acryl 23 nylon 14 rayon 6 span 2");
+		jacket.setCategory("Outer");
+		jacket.setManufacturer("designer");
+		jacket.setUnitsInStock(1000);
+		jacket.setCondition("New");
 
-        		Product notebook = new Product("P1235", "LG PC 그램", 1500000);
-		notebook.setDescription("13.3-inch, IPS LED display, 5rd Generation Intel Core processors");
-		notebook.setCategory("Notebook");
-		notebook.setManufacturer("LG");
-		notebook.setUnitsInStock(1000);
-		notebook.setCondition("Refurbished");
+        Product blazerbrown = new Product("P1235", "wool blazer (brown)", 189000);
+		blazerbrown.setDescription("WOOL 60% TETRON 30% ZENTRA 10%");
+		blazerbrown.setCategory("Outer");
+		blazerbrown.setManufacturer("designer");
+		blazerbrown.setUnitsInStock(1000);
+		blazerbrown.setCondition("New");
 
-		Product tablet = new Product("P1236", "Galaxy Tab S", 900000);
-		tablet.setDescription("212.8*125.6*6.6mm,  Super AMOLED display, Octa-Core processor");
-		tablet.setCategory("Tablet");
-		tablet.setManufacturer("Samsung");
-		tablet.setUnitsInStock(1000);
-		tablet.setCondition("Old");
+		Product blazerblack = new Product("P1236", "wool blazer (black)", 189000);
+		blazerblack.setDescription("WOOL 60% TETRON 30% ZENTRA 10%");
+		blazerblack.setCategory("Outer");
+		blazerblack.setManufacturer("designer");
+		blazerblack.setUnitsInStock(1000);
+		blazerblack.setCondition("New");
 		
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
-		listOfProducts.add(phone);
-		listOfProducts.add(notebook);
-		listOfProducts.add(tablet);
+		listOfProducts.add(jacket);
+		listOfProducts.add(blazerbrown);
+		listOfProducts.add(blazerblack);
 		// listOfProducts.add(상품명);
 	}
 
@@ -52,5 +60,10 @@ public class ProductRepository {
 		}
 		return productById;
 	}
-
+    
+    public void addProduct(Product product) {
+        listOfProducts.add(product);
+    }
 }
+
+
