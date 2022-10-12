@@ -23,12 +23,12 @@
 			%>
 			<div class="col-md-4">
                 <div class="card bg-dark text-white">
-                        <img src="image/product/<%=product.getProductId()%>.jpg" class="card-img" alt="...">
-                        <div class="card-img-overlay">
+                    	<img src="image/product/<%=product.getFilename()%>" class="card-img" alt="...">
+                    	<div class="card-img-overlay">
                         <h5 class="card-title">Outer</h5>
                         <p class="card-text">출처 : NOMELET</p>
                         </div>
-                        </div>
+                        </div>	
 
 				<h3><%=product.getPname()%></h3>
 				<p><%=product.getDescription()%>

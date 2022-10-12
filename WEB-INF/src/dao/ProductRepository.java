@@ -21,6 +21,8 @@ public class ProductRepository {
 		jacket.setManufacturer("designer");
 		jacket.setUnitsInStock(1000);
 		jacket.setCondition("New");
+        jacket.setFilename("P1234.jpg");
+
 
         Product blazerbrown = new Product("P1235", "wool blazer (brown)", 189000);
 		blazerbrown.setDescription("WOOL 60% TETRON 30% ZENTRA 10%");
@@ -28,6 +30,8 @@ public class ProductRepository {
 		blazerbrown.setManufacturer("designer");
 		blazerbrown.setUnitsInStock(1000);
 		blazerbrown.setCondition("New");
+        blazerbrown.setFilename("P1235.jpg");
+
 
 		Product blazerblack = new Product("P1236", "wool blazer (black)", 189000);
 		blazerblack.setDescription("WOOL 60% TETRON 30% ZENTRA 10%");
@@ -35,12 +39,21 @@ public class ProductRepository {
 		blazerblack.setManufacturer("designer");
 		blazerblack.setUnitsInStock(1000);
 		blazerblack.setCondition("New");
-		
+		blazerblack.setFilename("P1236.jpg");
+        
+        Product denimshirt = new Product("P1237", "Denim shirt", 99000);
+		denimshirt.setDescription("COTTON 100");
+		denimshirt.setCategory("Shirt");
+		denimshirt.setManufacturer("designer");
+		denimshirt.setUnitsInStock(1000);
+		denimshirt.setCondition("New");
+		denimshirt.setFilename("P1237.jpg");
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(jacket);
 		listOfProducts.add(blazerbrown);
 		listOfProducts.add(blazerblack);
+        listOfProducts.add(denimshirt);
 		// listOfProducts.add(상품명);
 	}
 
