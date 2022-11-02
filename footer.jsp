@@ -1,4 +1,6 @@
 <%@ page contentType = "text/html;charset=utf-8" %>
+<%@ page import="java.util.Date"%>
+
 <footer class="container">
 		<p>&copy; 쇼핑몰 대표 : 김정민, 고유번호 : 20210969, 연락처 : kjm020102@sungkyul.ac.kr<br>
             <%

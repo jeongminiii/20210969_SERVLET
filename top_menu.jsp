@@ -25,7 +25,7 @@
 		<div class="navbar-header">
             <a class="navbar-brand" href="./index.jsp">COMMUNITY</a>
             <a class="navbar-brand" href="./index.jsp">ACCOUNT</a>
-            <a class="navbar-brand" href="./index.jsp">CART</a>
+            <a class="navbar-brand" href="cart/product_cart.jsp">CART</a>
             <a class="navbar-brand" href="./index.jsp">SEARCH</a>
            	<a class="navbar-brand" href="admin/index_ad.jsp">관리자모드</a>
 
