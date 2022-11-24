@@ -36,6 +36,9 @@
                 </div>
                 <button class="btn btn btn-lg btn-success btn-block" type="submit">로그인</button>
             </form>
+            
+             <button class="btn btn btn-lg btn-success btn-block" type="button" onclick="location.href='../member/member_join.jsp';">회원가입</button>
+            
         </div>
     </div>
     </body>

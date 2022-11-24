@@ -18,15 +18,15 @@
 	</div>
   
     <div>
-        <img src="image\smalllogolike.jpg" class="img-fluid" alt="main_image">
+        <img src="https://jsp-main--cubcl.run.goorm.io//image/smalllogolike.jpg" class="img-fluid" alt="main_image">
     </div>
     
 	<div class="container">
 		<div class="navbar-header">
-            <a class="navbar-brand" href="./index.jsp">COMMUNITY</a>
-            <a class="navbar-brand" href="./index.jsp">ACCOUNT</a>
+            <a class="navbar-brand" href="index.jsp">상품목록(기본 홈)</a>
+            <a class="navbar-brand" href="login/login_user.jsp">로그인</a>
             <a class="navbar-brand" href="cart/product_cart.jsp">CART</a>
-            <a class="navbar-brand" href="./index.jsp">SEARCH</a>
+            <a class="navbar-brand" href="/BoardListAction.do?pageNum=1">게시판(고객센터)</a>
            	<a class="navbar-brand" href="admin/index_ad.jsp">관리자모드</a>
 
 
